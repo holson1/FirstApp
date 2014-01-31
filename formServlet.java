@@ -25,7 +25,7 @@ public class formServlet extends HttpServlet {
 		else
 			out.println("You didn't enter any text!\n");
 		
-		out.println("<a href=\"../FirstApp.html\">"
+		out.println("<a href=\"../../index.html\">"
 				+ "Return to form</a>");
 		out.close();
 	}
