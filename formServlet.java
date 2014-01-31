@@ -21,11 +21,11 @@ public class formServlet extends HttpServlet {
 		String name = request.getParameter("name");
 		
 		if(name != null)
-			out.println("How's it going, " + name);
+			out.println("How's it going, " + name + "?\n");
 		else
-			out.println("You didn't enter any text!");
+			out.println("You didn't enter any text!\n");
 		
-		out.println("<a href=\"../../FirstApp.html\">"
+		out.println("<a href=\"../FirstApp.html\">"
 				+ "Return to form</a>");
 		out.close();
 	}
