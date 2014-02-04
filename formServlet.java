@@ -21,7 +21,7 @@ public class formServlet extends HttpServlet {
 		String name = request.getParameter("name");
 		
 		if(name != null)
-			out.println("What up, " + name + "?\n");
+			out.println("aaaaa, " + name + "?\n");
 		else
 			out.println("You didn't enter any text!\n");
 		
